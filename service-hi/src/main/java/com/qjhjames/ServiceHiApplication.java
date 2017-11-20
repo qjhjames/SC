@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableEurekaClient
 @RestController
-public class ClientHiApplication {
+public class ServiceHiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClientHiApplication.class, args);
+		SpringApplication.run(ServiceHiApplication.class, args);
 	}
 
 	@Value("${server.port}")
