@@ -5,7 +5,10 @@ eureka:
   instance:
     hostname: localhost
   client:
+    #只是作为注册服务端，不用将自己注册为客户端
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    enable-self-preservation: true

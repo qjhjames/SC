@@ -6,18 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aop" />
+        <module name="config-server" />
         <module name="eurekaserver" />
+        <module name="houduanjiagoushi" />
+        <module name="mb" />
+        <module name="server-zipkin" />
         <module name="service-feign" />
         <module name="service-hi" />
         <module name="service-ribbon" />
+        <module name="service-tracehi" />
+        <module name="service-tracemiya" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aop" target="1.8" />
       <module name="client-hi" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eurekaserver" target="1.8" />
+      <module name="houduanjiagoushi" target="1.8" />
+      <module name="mb" target="1.8" />
+      <module name="server-zipkin" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="service-tracehi" target="1.8" />
+      <module name="service-tracemiya" target="1.8" />
+      <module name="service-zuul" target="1.8" />
       <module name="sevice-hi" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
